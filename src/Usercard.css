@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.imgdiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv img{
+    display: block;
+    width: 80%;
+    height: 70vh;
+
+}
+
+
+.card{
+    position: relative;
+    width: 70%;
+    height: 20rem;
+    border-radius: .3rem;
+    border-style: none;
+    margin: auto;
+    background: url('https://cdn.shopify.com/s/files/1/1003/7610/products/Triangles_pattern_of_geometric_shapes_Wall_Mural_Wallpaper_a_800x.jpg?v=1578614224');
+    box-shadow:  27px -10px 54px #cccccc,
+                -27px 27px 54px #ffffff;
+    transition: ease-in-out 0.2s;
+    
+} 
+
+.card:hover{
+    transform: translatey(-0.2rem);
+}
+
+.card .content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background: #ff0077;
+    border-radius: 0 0 .3rem .3rem;
+
+}
+.card img{
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    transition: ease-in-out 0.2s;
+    border: .2rem solid #ff0077;
+
+}
+
+
+.card img:hover{
+    width: 100%;
+    height: 70%;
+    border-radius: 0;
+    margin-top: -.07rem;
+}
+
+.card .content h2{
+    color: #faebd7;
+    font-size: 1.6rem;
+    letter-spacing: .10rem;
+}
+
+.card .content a{
+    color: #f8f8f8;
+    font-size: 1.2rem;
+    letter-spacing: .02rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px){
+    .card .content h2{
+        font-size: 1.2rem;
+    }
+    .card .content h5{
+        font-size: 1rem;
+    }
+}

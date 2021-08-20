@@ -1,0 +1,22 @@
+.navbar{
+    background: #04ffff;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.btn{
+    border-radius: 2rem;
+    background: #ffffff;
+    color: #ff044f;
+    border-style: none;
+
+}
+
+.btn:hover{
+    background: #ff044f;
+    border-style: none;
+    color: #ffffff;
+}
